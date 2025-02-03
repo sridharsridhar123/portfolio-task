@@ -326,3 +326,167 @@ display: inline-block;
   color: white;
   text-shadow: 1px 1px 3px white;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+    .header {
+        top: 50px;
+        left: 30px;
+        width: 85%;
+        padding: 0.8rem 5%;
+    }
+
+    .navbar a {
+        margin-left: 2rem;
+        font-size: 1rem;
+    }
+
+    .content {
+        top: 250px;
+        margin-left: 200px;
+        text-align: center;
+    }
+
+    .content .design h1 {
+        font-size: 1.3rem;
+    }
+
+    .content .design p {
+        font-size: 35px;
+    }
+
+    .design h2 {
+        font-size: 40px;
+    }
+
+    .wrap {
+        right: 0;
+        text-align: center;
+    }
+
+    .logos h1 {
+        font-size: 24px;
+    }
+
+    .logos-slide img {
+        width: 80px;
+        height: 40px;
+        margin: 0 20px;
+    }
+}
+
+/* Mobile Devices (480px - 767px) */
+@media screen and (max-width: 767px) {
+    .header {
+        top: 20px;
+        left: 10px;
+        width: 95%;
+        padding: 0.6rem 5%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbar a {
+        font-size: 1rem;
+        margin: 5px 0;
+    }
+
+    .logo button {
+        font-size: 30px;
+    }
+
+    .content {
+        top: 200px;
+        margin-left: 0;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .content .design h1 {
+        font-size: 1.1rem;
+    }
+
+    .content .design p {
+        font-size: 30px;
+    }
+
+    .design h2 {
+        font-size: 35px;
+    }
+
+    .wrap {
+        right: 0;
+        text-align: center;
+    }
+
+    .button {
+        min-width: 250px;
+        min-height: 50px;
+        font-size: 18px;
+    }
+
+    .logos h1 {
+        font-size: 20px;
+    }
+
+    .logos-slide img {
+        width: 60px;
+        height: 30px;
+        margin: 0 15px;
+    }
+}
+
+/* Small Phones (Up to 480px) */
+@media screen and (max-width: 480px) {
+    .header {
+        top: 10px;
+        padding: 0.5rem 3%;
+    }
+
+    .navbar a {
+        font-size: 0.9rem;
+    }
+
+    .logo button {
+        font-size: 25px;
+    }
+
+    .content {
+        top: 180px;
+    }
+
+    .content .design h1 {
+        font-size: 1rem;
+    }
+
+    .content .design p {
+        font-size: 25px;
+    }
+
+    .design h2 {
+        font-size: 30px;
+    }
+
+    .button {
+        min-width: 220px;
+        min-height: 45px;
+        font-size: 16px;
+    }
+
+    .logos h1 {
+        font-size: 18px;
+    }
+
+    .logos-slide img {
+        width: 50px;
+        height: 25px;
+        margin: 0 10px;
+    }
+}
